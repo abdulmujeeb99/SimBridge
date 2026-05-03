@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     res.end("SimBridge signaling server running 🚀");
 });
 const wss = new WebSocket.Server({ server });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 /**
  * clients map:
