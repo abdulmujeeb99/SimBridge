@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_cyan">#00D4FF</color>
+    <color name="bg_card">#161B22</color>
+    <color name="bg_dark">#0D1117</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#3FB950</color>
+    <color name="orange">#F0883E</color>
+    <color name="red">#F85149</color>
+    <color name="text_muted">#8B949E</color>
+    <color name="white">#FFFFFFFF</color>
+    <style name="DialButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="backgroundTint">#161B22</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="Theme.SimBridgeTravel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_cyan</item>
+        <item name="colorPrimaryVariant">@color/bg_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+</resources>

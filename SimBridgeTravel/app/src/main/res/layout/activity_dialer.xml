@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D1117"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialer"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- SIM Selector -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALL VIA"
+        android:textColor="#8B949E"
+        android:textSize="11sp"
+        android:letterSpacing="0.1"
+        android:layout_marginBottom="4dp"/>
+    <Spinner
+        android:id="@+id/spinnerSim"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/input_bg"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="16dp"
+        android:popupBackground="#21262D"/>
+
+    <!-- Number Display -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:id="@+id/tvDialNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="+1 000 000 0000"
+            android:textColorHint="#4D5566"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:fontFamily="monospace"
+            android:gravity="center" />
+        <ImageButton
+            android:id="@+id/btnBackspace"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_input_delete"
+            android:colorFilter="#8B949E"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <!-- Keypad -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:layout_marginBottom="16dp">
+        <Button android:id="@+id/btn1" style="@style/DialButton" android:text="1"/>
+        <Button android:id="@+id/btn2" style="@style/DialButton" android:text="2"/>
+        <Button android:id="@+id/btn3" style="@style/DialButton" android:text="3"/>
+        <Button android:id="@+id/btn4" style="@style/DialButton" android:text="4"/>
+        <Button android:id="@+id/btn5" style="@style/DialButton" android:text="5"/>
+        <Button android:id="@+id/btn6" style="@style/DialButton" android:text="6"/>
+        <Button android:id="@+id/btn7" style="@style/DialButton" android:text="7"/>
+        <Button android:id="@+id/btn8" style="@style/DialButton" android:text="8"/>
+        <Button android:id="@+id/btn9" style="@style/DialButton" android:text="9"/>
+        <Button android:id="@+id/btnStar" style="@style/DialButton" android:text="*"/>
+        <Button android:id="@+id/btn0"    style="@style/DialButton" android:text="0"/>
+        <Button android:id="@+id/btnHash" style="@style/DialButton" android:text="#"/>
+    </GridLayout>
+
+    <!-- Call Button -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@android:drawable/ic_menu_call"
+            android:colorFilter="#0D1117"
+            android:background="@drawable/circle_call_bg"
+            android:padding="16dp" />
+    </LinearLayout>
+</LinearLayout>

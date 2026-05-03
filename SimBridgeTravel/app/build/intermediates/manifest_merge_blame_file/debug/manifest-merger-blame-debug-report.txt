@@ -1,0 +1,224 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simbridge.travel"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:4:5-67
+11-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:5:5-79
+12-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:6:5-71
+13-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:6:22-68
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:7:5-80
+14-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:8:5-68
+15-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:9:5-76
+16-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:9:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:10:5-68
+17-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:11:5-77
+18-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+19-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:12:5-88
+19-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:12:22-85
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:13:5-77
+20-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+21-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:14:5-81
+21-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:14:22-78
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:15:5-66
+22-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:15:22-63
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+25        android:name="com.simbridge.travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.simbridge.travel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:17:5-70:19
+31        android:allowBackup="true"
+31-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:19:9-43
+36        android:label="SimBridge Travel"
+36-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:20:9-41
+37        android:roundIcon="@mipmap/ic_launcher"
+37-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:21:9-48
+38        android:supportsRtl="true"
+38-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:22:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.SimBridgeTravel" >
+40-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:23:9-53
+41        <activity
+41-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:25:9-33:20
+42            android:name="com.simbridge.travel.activities.MainActivity"
+42-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:26:13-52
+43            android:exported="true"
+43-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:27:13-36
+44            android:screenOrientation="portrait" >
+44-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:28:13-49
+45            <intent-filter>
+45-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:29:13-32:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:30:17-69
+46-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:30:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:31:17-77
+48-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:31:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:35:9-38:52
+52            android:name="com.simbridge.travel.activities.DialerActivity"
+52-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:36:13-54
+53            android:exported="false"
+53-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:37:13-37
+54            android:screenOrientation="portrait" />
+54-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:38:13-49
+55        <activity
+55-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:40:9-46:46
+56            android:name="com.simbridge.travel.activities.IncomingCallActivity"
+56-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:41:13-60
+57            android:exported="false"
+57-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:42:13-37
+58            android:launchMode="singleTop"
+58-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:46:13-43
+59            android:screenOrientation="portrait"
+59-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:43:13-49
+60            android:showOnLockScreen="true"
+60-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:44:13-44
+61            android:turnScreenOn="true" />
+61-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:45:13-40
+62        <activity
+62-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:48:9-52:46
+63            android:name="com.simbridge.travel.activities.ActiveCallActivity"
+63-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:49:13-58
+64            android:exported="false"
+64-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:50:13-37
+65            android:launchMode="singleTop"
+65-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:52:13-43
+66            android:screenOrientation="portrait" />
+66-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:51:13-49
+67        <activity
+67-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:54:9-57:52
+68            android:name="com.simbridge.travel.activities.SmsActivity"
+68-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:55:13-51
+69            android:exported="false"
+69-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:56:13-37
+70            android:screenOrientation="portrait" />
+70-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:57:13-49
+71        <activity
+71-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:59:9-62:52
+72            android:name="com.simbridge.travel.activities.SetupActivity"
+72-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:60:13-53
+73            android:exported="false"
+73-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:61:13-37
+74            android:screenOrientation="portrait" />
+74-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:62:13-49
+75
+76        <service
+76-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:64:9-68:44
+77            android:name="com.simbridge.travel.services.ConnectionService"
+77-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:65:13-55
+78            android:exported="false"
+78-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:66:13-37
+79            android:foregroundServiceType="phoneCall"
+79-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:67:13-54
+80            android:stopWithTask="false" />
+80-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeTravel\app\src\main\AndroidManifest.xml:68:13-41
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.simbridge.travel.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\33b86a1459d939fb864d200f62747636\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\5e4a8e0fcb3481a0b16e243c758545e5\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\2dac5e1d7d37ad2248dc44303c98de0d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>

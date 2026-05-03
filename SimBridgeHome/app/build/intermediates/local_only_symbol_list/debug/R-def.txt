@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color accent_cyan
+color bg_card
+color bg_dark
+color black
+color green
+color orange
+color red
+color text_muted
+color white
+drawable badge_bg
+drawable card_bg
+drawable circle_bg
+drawable ic_launcher_foreground
+drawable input_bg
+id btnGenerateCode
+id btnSave
+id btnSetup
+id etPairCode
+id etServerUrl
+id etSimLabel
+id ivStatusDot
+id switchRelay
+id tvBadgeHome
+id tvCallStatus
+id tvDeviceId
+id tvPairCode
+id tvServerUrl
+id tvSmsStatus
+id tvStatus
+layout activity_main_home
+layout activity_setup
+mipmap ic_launcher
+mipmap ic_launcher_round
+style Theme.SimBridgeHome

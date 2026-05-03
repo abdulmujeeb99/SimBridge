@@ -1,0 +1,276 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simbridge.home"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Telephony permissions -->
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:5:5-75
+12-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:5:22-72
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:6:5-69
+13-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:6:22-66
+14    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+14-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:7:5-72
+14-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:7:22-69
+15    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+15-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:8:5-77
+15-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+16-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:9:5-75
+16-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:9:22-72
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:10:5-67
+17-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+18-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:11:5-70
+18-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:11:22-67
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:12:5-67
+19-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:12:22-64
+20    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+20-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:13:5-81
+20-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:13:22-78
+21
+22    <!-- Audio / WebRTC -->
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:16:5-71
+23-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:16:22-68
+24    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+24-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:17:5-80
+24-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:17:22-77
+25    <uses-permission android:name="android.permission.BLUETOOTH" />
+25-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:18:5-68
+25-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:18:22-65
+26    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+26-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:19:5-76
+26-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:19:22-73
+27
+28    <!-- Network -->
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:22:5-67
+29-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:22:22-64
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:23:5-79
+30-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:23:22-76
+31    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+31-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:24:5-79
+31-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:24:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:25:5-68
+32-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:25:22-65
+33
+34    <!-- Foreground service -->
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:28:5-77
+35-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:28:22-74
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+36-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:29:5-88
+36-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:29:22-85
+37    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+37-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:30:5-81
+37-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:30:22-78
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:31:5-77
+38-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:31:22-74
+39
+40    <permission
+40-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+41        android:name="com.simbridge.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.simbridge.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:33:5-96:19
+47        android:allowBackup="true"
+47-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:34:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.9.0] C:\Users\furqa\.gradle\caches\transforms-3\6b8f70eacaea457f2c8ec8c1d2a003d3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:icon="@mipmap/ic_launcher"
+51-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:35:9-43
+52        android:label="SimBridge Home"
+52-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:36:9-39
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:37:9-54
+54        android:supportsRtl="true"
+54-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:38:9-35
+55        android:testOnly="true"
+56        android:theme="@style/Theme.SimBridgeHome" >
+56-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:39:9-51
+57        <activity
+57-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:41:9-49:20
+58            android:name="com.simbridge.home.activities.MainActivity"
+58-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:42:13-52
+59            android:exported="true"
+59-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:43:13-36
+60            android:screenOrientation="portrait" >
+60-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:44:13-49
+61            <intent-filter>
+61-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:45:13-48:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:46:17-69
+62-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:46:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:47:17-77
+64-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:47:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:51:9-54:52
+68            android:name="com.simbridge.home.activities.SetupActivity"
+68-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:52:13-53
+69            android:exported="false"
+69-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:53:13-37
+70            android:screenOrientation="portrait" />
+70-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:54:13-49
+71
+72        <!-- Background relay service -->
+73        <service
+73-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:57:9-61:44
+74            android:name="com.simbridge.home.services.RelayService"
+74-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:58:13-50
+75            android:exported="false"
+75-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:59:13-37
+76            android:foregroundServiceType="phoneCall"
+76-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:60:13-54
+77            android:stopWithTask="false" />
+77-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:61:13-41
+78
+79        <!-- WebSocket service -->
+80        <service
+80-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:64:9-67:44
+81            android:name="com.simbridge.home.services.SignalingService"
+81-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:65:13-54
+82            android:exported="false"
+82-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:66:13-37
+83            android:stopWithTask="false" />
+83-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:67:13-41
+84
+85        <!-- Incoming call receiver -->
+86        <receiver
+86-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:70:9-76:20
+87            android:name="com.simbridge.home.telephony.CallReceiver"
+87-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:71:13-51
+88            android:exported="true" >
+88-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:72:13-36
+89            <intent-filter android:priority="999" >
+89-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:73:13-75:29
+89-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:73:28-50
+90                <action android:name="android.intent.action.PHONE_STATE" />
+90-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:74:17-76
+90-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:74:25-73
+91            </intent-filter>
+92        </receiver>
+93
+94        <!-- SMS receiver -->
+95        <receiver
+95-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:79:9-85:20
+96            android:name="com.simbridge.home.telephony.SmsReceiver"
+96-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:80:13-50
+97            android:exported="true" >
+97-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:81:13-36
+98            <intent-filter android:priority="999" >
+98-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:82:13-84:29
+98-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:82:28-50
+99                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+99-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:83:17-82
+99-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:83:25-79
+100            </intent-filter>
+101        </receiver>
+102
+103        <!-- Boot receiver - auto start service -->
+104        <receiver
+104-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:88:9-94:20
+105            android:name="com.simbridge.home.telephony.BootReceiver"
+105-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:89:13-51
+106            android:exported="true" >
+106-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:90:13-36
+107            <intent-filter>
+107-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:91:13-93:29
+108                <action android:name="android.intent.action.BOOT_COMPLETED" />
+108-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:92:17-79
+108-->E:\SimBridge_SourceCode_v2\SimBridge\SimBridgeHome\app\src\main\AndroidManifest.xml:92:25-76
+109            </intent-filter>
+110        </receiver>
+111
+112        <provider
+112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+113            android:name="androidx.startup.InitializationProvider"
+113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+114            android:authorities="com.simbridge.home.androidx-startup"
+114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+115            android:exported="false" >
+115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+116            <meta-data
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+118                android:value="androidx.startup" />
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\furqa\.gradle\caches\transforms-3\ffc9f230be04c872a4d3d8344b79f804\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\8be0a2315d83ac5cc588858b646ae154\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+120-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\8be0a2315d83ac5cc588858b646ae154\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+121                android:value="androidx.startup" />
+121-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\furqa\.gradle\caches\transforms-3\8be0a2315d83ac5cc588858b646ae154\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+124                android:value="androidx.startup" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+125        </provider>
+126
+127        <receiver
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+128            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+129            android:directBootAware="false"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+130            android:enabled="true"
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+131            android:exported="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+132            android:permission="android.permission.DUMP" >
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+134                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+137                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+140                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+143                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\furqa\.gradle\caches\transforms-3\3adce4beab7a9ef561125662a0269d94\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+144            </intent-filter>
+145        </receiver>
+146    </application>
+147
+148</manifest>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_circle_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_circle_reject_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/circle_reject_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_dialer.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_dialer.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_card_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/card_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_bubble_outgoing.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/bubble_outgoing.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_circle_call_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/circle_call_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_main_travel.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_main_travel.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_badge_travel_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/badge_travel_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_bubble_incoming.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/bubble_incoming.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_active_call.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_active_call.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/drawable_input_bg.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_setup_travel.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_setup_travel.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_sms.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_sms.xml"
+    },
+    {
+        "merged": "com.simbridge.travel.app-merged_res-32:/layout_activity_incoming_call.xml.flat",
+        "source": "com.simbridge.travel.app-main-34:/layout/activity_incoming_call.xml"
+    }
+]

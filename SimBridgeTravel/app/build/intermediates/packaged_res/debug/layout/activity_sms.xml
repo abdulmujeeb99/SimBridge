@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D1117">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Messages list -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp">
+        <LinearLayout
+            android:id="@+id/llMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <!-- Compose area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#161B22"
+        android:padding="12dp">
+
+        <!-- SIM Selector -->
+        <Spinner
+            android:id="@+id/spinnerSim"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/input_bg"
+            android:paddingHorizontal="8dp"
+            android:layout_marginBottom="8dp"
+            android:popupBackground="#21262D"/>
+
+        <EditText
+            android:id="@+id/etRecipient"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/input_bg"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#4D5566"
+            android:hint="Recipient number"
+            android:textSize="14sp"
+            android:paddingHorizontal="12dp"
+            android:inputType="phone"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/etMessage"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#4D5566"
+                android:hint="Type message..."
+                android:textSize="14sp"
+                android:paddingHorizontal="12dp"
+                android:layout_marginEnd="8dp"/>
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:text="Send"
+                android:textColor="#0D1117"
+                android:textStyle="bold"
+                android:backgroundTint="#00D4FF"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
